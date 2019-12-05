@@ -48,7 +48,7 @@ class setPackageNumberInMainOrder{
 
         $this->saveShippingInformation($originOrder->id, $packageNumers[0]);
 
-        $this->setOrderNotice($originOrder->id, 'Aus Lieferauftrag ' $orderRepositoryContract 'TrackingNR:'.$packageNumers[0].' importiert' $originOrder);
+        $this->setOrderNotice($originOrder->id, 'Aus Lieferauftrag ' $deliveryOrder 'TrackingNR:'.$packageNumers[0].' importiert' $originOrder);
 
         return true;
     }
