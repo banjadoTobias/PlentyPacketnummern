@@ -1,4 +1,3 @@
-by Thorsten Laing supertorti https://gitlab.com/supertorti/syncpackagenumber/tree/master
 
 ## EventFilter - plugin for PlentyMarkety ERP
 

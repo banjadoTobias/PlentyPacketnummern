@@ -1,4 +1,4 @@
-?php namespace EventFilter\Procedures;
+<?php namespace EventFilter\Procedures;
 
 use Plenty\Modules\Comment\Contracts\CommentRepositoryContract;
 use Plenty\Modules\EventProcedures\Events\EventProceduresTriggered;
@@ -48,7 +48,7 @@ class setPackageNumberInMainOrder{
 
         $this->saveShippingInformation($originOrder->id, $packageNumers[0]);
 
-        $this->setOrderNotice($originOrder->id, $deliveryOrder 'Sendungsnummer:'.$packageNumers[0].' synchronisiert!');
+        $this->setOrderNotice($originOrder->id, 'Sendungsnummer:'.$packageNumers[0].' synchronisiert!');
 
         return true;
     }
