@@ -1,0 +1,11 @@
+{
+  "name": "EventFilter",
+  "description": "Dieses Plugin synchronisiert die Sendungsnummern von Lieferaufträgen mit dem Hauptauftrag.",
+  "namespace": "EventFilter",
+  "author": "Thorsten Laing",
+  "version" : "1.1.2",
+  "type": "Backend",
+  "email" : "laing@web.de",
+  "isClosedSource": true,
+  "serviceProvider": "EventFilter\\Providers\\EventFilterServiceProvider"
+}

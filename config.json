@@ -1,0 +1,18 @@
+[
+  {
+    "tab"       : "Einstellungen",
+    "key"       : "useridfornotice",
+    "label"     : "UserId für Notiz im Auftrag",
+    "type"      : "text",
+    "default"   : "1"
+  },
+  {
+    "tab"       : "Einstellungen",
+    "key"       : "packageid",
+    "label"     : "Id des Versandpakets, das im Hauptauftrag angelegt wird",
+    "type"      : "text",
+    "default"   : "2"
+  }
+]
+
+
