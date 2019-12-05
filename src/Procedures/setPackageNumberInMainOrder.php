@@ -48,7 +48,7 @@ class setPackageNumberInMainOrder{
 
         $this->saveShippingInformation($originOrder->id, $packageNumers[0]);
 
-        $this->setOrderNotice($originOrder->id, 'Sendungsnummer:'.$packageNumers[0].' synchronisiert!');
+        $this->setOrderNotice($originOrder->id, 'Aus Lieferauftrag ' $OrderRepo 'TrackingNR:'.$packageNumers[0].' importiert' $originOrder);
 
         return true;
     }
